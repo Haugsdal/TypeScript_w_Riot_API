@@ -1,0 +1,24 @@
+.HomeWrapper {
+    display:flex;
+    justify-content: center;
+    flex-direction:row;
+    align-items:stretch;
+}
+
+body {
+    background-color: #d7cee1;
+}
+
+.HomeMargin {
+    flex:6%;
+}
+
+.HomeFeed {
+    flex:94%;
+    color:black;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    margin-top:7vh;
+}

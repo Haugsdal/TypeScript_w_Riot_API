@@ -1,0 +1,39 @@
+/*
+Font imports
+*/
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.ComponentBody {
+    background-color: #FDFCFDFF;
+}
+
+body {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.Headline h1 {
+    text-align:center;
+    font-size:4vh;
+    padding:2vw;
+    border-bottom: 0.3vh solid black;
+}
+
+.Headline p {
+    text-align:center;
+
+}
+
+.Headline {
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:stretch;
+
+}
+
+.paragraph {
+    font-size:1.75vh;
+}

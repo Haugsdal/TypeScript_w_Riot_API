@@ -1,0 +1,109 @@
+/*
+Font imports
+*/
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+/*
+Navigationbar
+*/
+
+.NavigationBar {
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items:center;
+    background-color: #6C3494;
+    padding:0.5vw;
+    height:10vh;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.NavList {
+    color:white;
+    font-size:1.75vh;
+    margin-right:4vw;
+}
+
+.NavList ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.NavList li {
+    float:left;
+    border-bottom: 0.3vh solid white;
+    padding:0.5vw;
+    text-decoration:none;
+    text-align:center;
+    margin:1vh 1vw;
+}
+
+.NavList li:hover {
+    color:#D3B5F2;
+    border-bottom: 0.3vh solid #D3B5F2;
+    cursor:pointer;
+}
+
+.Logo {
+    z-index:2;
+    position:absolute;
+    padding:2vh;
+    background-color:#6C3494;
+    margin: 0vh 4vw;
+    border-radius:32%;
+}
+
+.Logo img {
+    width:auto;
+    max-height:9vh;
+    padding:2vh;
+    border-radius: 32%;
+    background-color:#8970E6;
+    transition:0.3s ease-in-out;
+}
+
+.Logo img:hover {
+    background-color:#6458AC;
+}
+
+/*
+Footer
+*/
+
+.Footer {
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items:center;
+    background-color: #6C3494;
+    padding:0.5vw;
+    height:9vh;
+    font-size:1.4vh;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Footer ul {
+    list-style-type: none;
+    margin: 2vw;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Footer li {
+    color:white;
+    padding:0.15vw;
+    text-decoration:none;
+    text-align:right;
+    margin:1vh 1vw;
+}
+
+.Footer li a {
+    color:white;
+}

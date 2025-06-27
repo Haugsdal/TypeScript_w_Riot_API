@@ -1,3 +1,18 @@
+/*
+Font imports
+*/
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.backgroundPicture {
+    z-index:1;
+    position: absolute;
+}
+
+.backgroundPicture img {
+    width:100vw;
+    height: 45vh;
+}
+
 .HomeWrapper {
     display:flex;
     justify-content: center;
@@ -14,11 +29,17 @@ body {
 }
 
 .HomeFeed {
+    position:relative;
+    z-index:2;
     flex:94%;
-    color:black;
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-items:center;
     margin-top:7vh;
+    margin-bottom:7vh;
+}
+
+.HomeComponentDivider {
+    height: 4vh;
 }

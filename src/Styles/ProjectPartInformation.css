@@ -1,0 +1,40 @@
+/*
+Font imports
+*/
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/*
+The filter function
+*/
+
+.projectPartInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.PartChoice {
+    background-color: #6b3493;
+    padding: 0.8vh;
+    border-radius:2vh 2vh 0vh 0vh;
+}
+
+.PartChoice select {
+    background-color: #6b3493;
+    color: white;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding:0.5vw;
+    font-size:1.50vh;
+    border-color: #6b3493;
+}
+
+.PartChoice select:hover {
+    cursor:pointer;
+}
+
+
+
+

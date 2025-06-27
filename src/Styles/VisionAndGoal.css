@@ -5,6 +5,8 @@ Font imports
 
 .ComponentBody {
     background-color: #FDFCFDFF;
+    padding: 2vh 4vh;
+    border-radius:2vh;
 }
 
 body {
@@ -31,9 +33,11 @@ body {
     justify-content: center;
     flex-direction:column;
     align-items:stretch;
+    padding:1vw;
 
 }
 
 .paragraph {
     font-size:1.75vh;
+    padding:1vw;
 }

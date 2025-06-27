@@ -20,6 +20,7 @@ const ProjectPartInformation = () => {
                         id={"choice"}
                         name={"choice"}
                         value={ChosenPart}
+                        defaultValue={"Iteration1"}
                         onChange={(e) => setChosenPart(e.target.value)}
                     >
                         <option value={"Iteration1"}> Iteration 1</option>

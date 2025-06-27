@@ -1,5 +1,6 @@
 //Module imports
 import React from "react";
+import { Link } from "react-router-dom";
 
 //CSS imports
 import '../Styles/MainLayout.css';
@@ -19,9 +20,9 @@ const NavigationBar = () => {
             </div>
             <div className={"NavList"}>
                 <ul>
-                    <li><b>Home</b></li>
-                    <li>League Bingo</li>
-                    <li>Summoner Statistics</li>
+                    <li><Link to={"/"}><b>Home</b></Link></li>
+                    <li><Link to={"/bingo"}>League Bingo</Link></li>
+                    <li><Link to={"AnnoyingStatistics"}>Summoner Statistics</Link></li>
                 </ul>
             </div>
         </nav>

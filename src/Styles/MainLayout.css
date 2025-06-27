@@ -35,16 +35,22 @@ Navigationbar
 }
 
 .NavList li {
+    display: inline-block;
+}
+
+.NavList a {
     float:left;
     border-bottom: 0.3vh solid white;
     padding:0.5vw;
     text-decoration:none;
     text-align:center;
     margin:1vh 1vw;
+    color:white;
 }
 
-.NavList li:hover {
-    color:#D3B5F2;
+
+.NavList a:hover {
+    color: #D3B5F2;
     border-bottom: 0.3vh solid #D3B5F2;
     cursor:pointer;
 }

@@ -1,0 +1,35 @@
+/*
+Font imports
+*/
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.BingoWrapper {
+    display:flex;
+    justify-content: center;
+    flex-direction:row;
+    align-items:stretch;
+}
+
+body {
+    background-color: #d7cee1;
+}
+
+.BingoMargin {
+    flex:6%;
+}
+
+.BingoFeed {
+    position:relative;
+    z-index:2;
+    flex:94%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    margin-top:7vh;
+    margin-bottom:7vh;
+}
+
+.BingoComponentDivider {
+    height: 4vh;
+}

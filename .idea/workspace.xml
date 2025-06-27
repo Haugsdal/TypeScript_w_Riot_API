@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec1dfda0-d355-44e8-a4f0-eebbf2b132db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/ProjectPart/ProjectPart.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ProjectPart/ProjectPartInformation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Styles/ProjectIteration1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Styles/ProjectPartInformation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/BingoHeader/BingoHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Styles/Bingo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/HomePage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/VisionAndGoal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/VisionAndGoal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ProjectPart/ProjectPartInformation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProjectPart/ProjectPartInformation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/NavigationBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/NavigationBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Bingo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Bingo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/MainLayout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/MainLayout.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -100,7 +99,8 @@
       <workItem from="1750266364056" duration="2532000" />
       <workItem from="1750884619346" duration="1842000" />
       <workItem from="1750886505759" duration="16177000" />
-      <workItem from="1751021889841" duration="12393000" />
+      <workItem from="1751021889841" duration="14390000" />
+      <workItem from="1751046518699" duration="5085000" />
     </task>
     <servers />
   </component>
